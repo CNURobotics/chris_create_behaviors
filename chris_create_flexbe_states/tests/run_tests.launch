@@ -1,0 +1,12 @@
+<launch>
+        <arg name="path" value="$(find chris_create_flexbe_states)/tests" />
+
+        <include file="$(find flexbe_testing)/launch/flexbe_testing.launch">
+                <arg name="compact_format" value="true" />
+                <arg name="testcases" value="
+                        $(arg path)/create_timed_twist_import.test
+                        $(arg path)/create_timed_stop_import.test
+                        $(arg path)/pure_pursuit_import.test
+                " />
+        </include>
+</launch>

@@ -1,0 +1,9 @@
+path: chris_create_flexbe_states.create_timed_stop_state
+class: CreateTimedStopState
+
+import_only: true
+
+params:
+    target_time:    2.0
+    cmd_topic:      '/create_node/cmd_vel'
+    odom_topic:     '/create_node/odometry'

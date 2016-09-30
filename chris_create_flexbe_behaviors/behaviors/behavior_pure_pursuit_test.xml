@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<behavior name="pure_pursuit_test">
+
+	<executable package_path="behavior_pure_pursuit_test.pure_pursuit_test_sm" class="pure_pursuit_testSM" />
+	<tagstring>create, pursuit</tagstring>
+	<author>David Conner</author>
+	<date>Thu Mar 17 2016</date>
+	<description>
+		Test of the purepursuit system
+	</description>
+
+
+	<!-- Contained Behaviors -->
+
+	<!-- Available Parameters -->
+
+</behavior>

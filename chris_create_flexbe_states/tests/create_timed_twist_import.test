@@ -1,0 +1,15 @@
+path: chris_create_flexbe_states.create_timed_twist_state
+class: CreateTimedTwistState
+
+import_only: false
+
+params:
+    target_time:    2.0
+    velocity:       0.25
+    rotation_rate:  0.1
+    cmd_topic:      '/create_node/cmd_vel'
+    sensor_topic:   '/create_node/sensor_state'
+
+outcome:
+    done
+

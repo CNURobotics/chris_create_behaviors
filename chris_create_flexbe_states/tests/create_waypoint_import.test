@@ -1,0 +1,12 @@
+path: chris_create_flexbe_states.create_waypoint_state
+class: CreateWaypointState
+
+import_only: true
+
+params:
+    target_x:         1.0
+    target_y:         0.0
+    target_frame:    'map'
+    marker_size:      0.05
+    marker_topic:     '/pure_pursuit_marker'
+

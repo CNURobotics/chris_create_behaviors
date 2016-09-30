@@ -1,0 +1,22 @@
+path: chris_create_flexbe_states.create_pure_pursuit_state
+class: CreatePurePursuitState
+
+import_only: true
+
+params:
+    desired_velocity:     0.2
+    max_rotation_rate:   10.0
+    target_x:             1.0
+    target_y:             0.0
+    target_frame:        'map'
+    target_type:         'arc'
+    lookahead_distance:   0.25
+    rotation_rate:        0.1
+    center_x:             0.0
+    center_y:             0.0
+    marker_size:          0.05
+    cmd_topic:        '/create_node/cmd_vel'
+    odometry_topic:   '/create_node/odom'
+    sensor_topic:     '/create_node/sensor_state'
+    marker_topic:     '/pure_pursuit_marker'
+

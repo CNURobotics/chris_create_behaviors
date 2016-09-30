@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<launch>
+
+<include file="$(find flexbe_onboard)/launch/behavior_testing.launch" >
+    <arg name="behaviors_package" value="chris_create_flexbe_behaviors" />
+</include>
+
+</launch>

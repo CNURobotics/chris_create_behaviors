@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<behavior name="CreateTimedTwistTest">
+
+	<executable package_path="behavior_createtimedtwisttest.createtimedtwisttest_sm" class="CreateTimedTwistTestSM" />
+	<tagstring>create</tagstring>
+	<author>David Conner</author>
+	<date>Tue Mar 15 2016</date>
+	<description>
+		Test of the CreateTimedTwistState that sends constant twist to the iRobot Create node
+	</description>
+
+
+	<!-- Contained Behaviors -->
+
+	<!-- Available Parameters -->
+
+</behavior>
