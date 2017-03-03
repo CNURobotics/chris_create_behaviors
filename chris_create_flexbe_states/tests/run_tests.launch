@@ -6,7 +6,8 @@
                 <arg name="testcases" value="
                         $(arg path)/create_timed_twist_import.test
                         $(arg path)/create_timed_stop_import.test
-                        $(arg path)/pure_pursuit_import.test
+                        $(arg path)/create_pure_pursuit_import.test
+                        $(arg path)/create_waypoint_import.test
                 " />
         </include>
 </launch>

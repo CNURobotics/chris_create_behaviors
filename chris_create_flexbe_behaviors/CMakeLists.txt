@@ -13,7 +13,7 @@ find_package(catkin REQUIRED)
 # LIBRARIES - The exported libraries from the project
 # CATKIN_DEPENDS - Other catkin projects that this project depends on
 # DEPENDS - Non-catkin CMake projects that this project depends on
-# CFG_EXTRAS - Additional configuration options 
+# CFG_EXTRAS - Additional configuration options
 catkin_package(
 #    INCLUDE_DIRS src
     LIBRARIES ${PROJECT_NAME}

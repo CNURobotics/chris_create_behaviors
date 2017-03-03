@@ -53,7 +53,7 @@ class CreateTimedStopState(EventState):
                 odom = self._sub.get_last_msg(self._odom_topic)
                 speed = odom.twist.twist.linear.x*odom.twist.twist.linear.x + odom.twist.twist.angular.z*odom.twist.twist.angular.z
                 if (speed > 5.0e-4):
-                    Logger.logwarn('Stop failed twist: linear = %f,%f,%f angular=%f, %f, %f' %
+                    Logger.logwarn('Stop failed twist  linear = %f,%f,%f angular=%f, %f, %f' %
                         (odom.twist.twist.linear.x,  odom.twist.twist.linear.y,  odom.twist.twist.linear.z,
                          odom.twist.twist.angular.x, odom.twist.twist.angular.y, odom.twist.twist.angular.z ))
                     self._done = 'failed'

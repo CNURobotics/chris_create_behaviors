@@ -10,10 +10,13 @@
   <buildtool_depend>catkin</buildtool_depend>
 
   <run_depend>rospy</run_depend>
+  <run_depend>flexbe_core</run_depend>
+  <run_depend>flexbe_states</run_depend>
 
-  <!-- Add here all ROS packages that contain behaviors -->
-  <run_depend>behavior_chris_create_example_behavior</run_depend>
-  <run_depend>behavior_createtimedtwisttest</run_depend>
-  <run_depend>behavior_pure_pursuit_test</run_depend>
+  <run_depend>chris_create_flexbe_states</run_depend>
+  
+  <export>
+    <flexbe_behaviors/>
+  </export>
 
 </package>

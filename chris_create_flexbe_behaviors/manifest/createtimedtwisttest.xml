@@ -2,7 +2,7 @@
 
 <behavior name="CreateTimedTwistTest">
 
-	<executable package_path="behavior_createtimedtwisttest.createtimedtwisttest_sm" class="CreateTimedTwistTestSM" />
+	<executable package_path="chris_create_flexbe_behaviors.createtimedtwisttest_sm" class="CreateTimedTwistTestSM" />
 	<tagstring>create</tagstring>
 	<author>David Conner</author>
 	<date>Tue Mar 15 2016</date>

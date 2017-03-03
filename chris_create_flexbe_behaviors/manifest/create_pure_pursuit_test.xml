@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<behavior name="pure_pursuit_test">
+<behavior name="Create Pure Pursuit Test">
 
-	<executable package_path="behavior_pure_pursuit_test.pure_pursuit_test_sm" class="pure_pursuit_testSM" />
+	<executable package_path="chris_create_flexbe_behaviors.create_pure_pursuit_test_sm" class="CreatePurePursuitTestSM" />
 	<tagstring>create, pursuit</tagstring>
 	<author>David Conner</author>
 	<date>Thu Mar 17 2016</date>
 	<description>
-		Test of the purepursuit system
+		Test of the pure pursuit system with iRobot Create setup
 	</description>
 
 
